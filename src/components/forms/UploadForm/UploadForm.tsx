@@ -13,7 +13,7 @@ export default function UploadForm() {
 
   return (
     <>
-      <Dropbox callback={handleUpload} />
+      <Dropbox data={files} callback={handleUpload} />
     </>
   );
 }
